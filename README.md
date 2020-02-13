@@ -18,7 +18,7 @@ IEEE 802.11 b/g/n Wi-Fi<br>
  WEP or WPA/WPA2 authentication, or open networks<br>
 16 GPIO pins<br>
 SPI<br>
-I²C (software implementation)[6]<br>
+I²C (software implementation)<br>
 I²S interfaces with DMA (sharing pins with GPIO)<br>
 UART on dedicated pins, plus a transmit-only UART can be enabled on GPIO2<br>
 10-bit ADC (successive approximation ADC)<br><br>
