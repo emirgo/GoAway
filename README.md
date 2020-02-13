@@ -7,16 +7,15 @@ A possibility of adding a buzzer as a sound source to warn the intruder will be 
 
 ## Hardware Specificaitons
 ### ESP8266
-Processor: L106 32-bit RISC microprocessor core based on the Tensilica Xtensa Diamond Standard 106Micro running at 80 MHz[5]<br>
-Memory:<br>
- - 32 KiB instruction RAM<br>
- - 32 KiB instruction cache RAM<br>
- - 80 KiB user-data RAM<br>
- - 16 KiB ETS system-data RAM<br><br>
+Processor: L106 32-bit RISC microprocessor core based on the Tensilica Xtensa Diamond Standard 106Micro running at 80 MHz<br>
+ 32 KiB instruction RAM<br>
+ 32 KiB instruction cache RAM<br>
+ 80 KiB user-data RAM<br>
+ 16 KiB ETS system-data RAM<br>
 External QSPI flash: up to 16 MiB is supported (512 KiB to 4 MiB typically included)<br>
 IEEE 802.11 b/g/n Wi-Fi<br>
- - Integrated TR switch, balun, LNA, power amplifier and matching network<br>
- - WEP or WPA/WPA2 authentication, or open networks<br>
+ Integrated TR switch, balun, LNA, power amplifier and matching network<br>
+ WEP or WPA/WPA2 authentication, or open networks<br>
 16 GPIO pins<br>
 SPI<br>
 I²C (software implementation)[6]<br>
