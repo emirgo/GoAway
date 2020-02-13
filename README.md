@@ -1,5 +1,5 @@
 # GoAway
-GoAway is an intruder system developed by a single developer (owner of this repository). First firmware is planned as a prototype based and is based on ESP8266.
+GoAway is an intruder system developed by a single developer (owner of this repository). First firmware is planned as a prototype and is based on ESP8266.
 
 ## What will GoAway do?
 If you are accomodating in a shared household, sometimes fellow members of the house might go into your room or into places you don't want without your permission. GoAway aims to solve this issue in terms of notfying you via email when this happens. There will also be a web page where you can see logs of what happened and how long the intruder was in the room or environment you wanted to private.
