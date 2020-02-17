@@ -22,28 +22,28 @@ BLYNK_WRITE(V0)
 } 
 
 void setup()
-  {
-    Serial.begin(115200);
-    delay(10);
-    Blynk.begin(auth, ssid, pass);
-    pinMode(pirPin, INPUT);
-  }
+{
+ Serial.begin(115200);
+ delay(10);
+ Blynk.begin(auth, ssid, pass);
+ pinMode(pirPin, INPUT);
+}
 
 void loop()
-  {
-     if (pinValue == HIGH)    
-      {
-        getPirValue();
-      }
-    Blynk.run();
-  }
+{
+ if (pinValue == HIGH)    
+ {
+  getPirValue();
+ }
+ Blynk.run();
+}
 
 void getPirValue(void)        //Get PIR Data
-  {
-   pirValue = digitalRead(pirPin);
-    if (pirValue) 
-     { 
-       Serial.println("Motion detected");
-       Blynk.notify("Motion detected");  
-     }
-  }
+{
+ pirValue = digitalRead(pirPin);
+ if (pirValue) 
+ { 
+  Serial.println("Motion detected");
+  Blynk.notify("Motion detected");  
+ }
+}
